@@ -35,7 +35,7 @@ class ControllerOneCheckoutGuest extends Controller {
 
 				if ((strlen(utf8_decode($this->request->post['lastname'])) < 1) || (strlen(utf8_decode($this->request->post['lastname'])) > 32)) {
 
-					$json['error']['lastname'] = $this->language->get('error_lastname');
+					//$json['error']['lastname'] = $this->language->get('error_lastname');
 
 				}
 

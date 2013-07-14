@@ -1,9 +1,9 @@
-<div id="guest-cpanle" class="divclear">
+<div id="guest-cpanle" class="divclear" style="display: none">
 <?php if ($shipping_required) { ?>
   <?php if ($shipping_address) { ?>
   <input type="checkbox" name="shipping_address" value="1" id="shipping"<?php if ($this->config->get('onecheckout_check_deliveryaddress')) { ?> checked="checked"<?php } ?> />
   <?php } else { ?>
-  <input type="checkbox" name="shipping_address" value="1" id="shipping" />
+  <input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" />
   <?php } ?>
   <label for="shipping"><?php echo $entry_shipping; ?></label>
   <br />

@@ -3,3 +3,27 @@
 2013-07-14 5:31:25 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\wamp\www\opencart\system\library\mail.php on line 150
 2013-07-14 5:46:59 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\wamp\www\opencart\system\library\mail.php on line 150
 2013-07-14 8:07:51 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\wamp\www\opencart\system\library\mail.php on line 150
+2013-07-14 9:31:11 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 46
+2013-07-14 9:31:11 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 51
+2013-07-14 9:31:15 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 46
+2013-07-14 9:31:15 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 51
+2013-07-14 9:44:11 - PHP Notice:  Undefined index: countryid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 45
+2013-07-14 9:44:11 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 46
+2013-07-14 9:44:11 - PHP Notice:  Undefined index: countryid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 50
+2013-07-14 9:44:11 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 51
+2013-07-14 11:13:56 - PHP Notice:  Undefined index: countryid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 45
+2013-07-14 11:13:56 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 46
+2013-07-14 11:13:56 - PHP Notice:  Undefined index: countryid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 50
+2013-07-14 11:13:56 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 51
+2013-07-14 11:21:19 - PHP Notice:  Undefined index: countryid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 45
+2013-07-14 11:21:19 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 46
+2013-07-14 11:21:19 - PHP Notice:  Undefined index: countryid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 50
+2013-07-14 11:21:19 - PHP Notice:  Undefined index: zoneid in E:\wamp\www\opencart\catalog\controller\onecheckout\shipping.php on line 51
+2013-07-14 11:55:02 - PHP Notice:  Undefined index: city in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 92
+2013-07-14 11:55:02 - PHP Notice:  Undefined index: postcode in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 102
+2013-07-14 12:01:12 - PHP Notice:  Undefined index: postcode in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 102
+2013-07-14 12:27:45 - PHP Notice:  Undefined index: fax in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 136
+2013-07-14 12:27:45 - PHP Notice:  Undefined index: company in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 140
+2013-07-14 12:27:45 - PHP Notice:  Undefined index: company in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 212
+2013-07-14 12:30:31 - PHP Notice:  Undefined index: company in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 140
+2013-07-14 12:30:31 - PHP Notice:  Undefined index: company in E:\wamp\www\opencart\catalog\controller\onecheckout\guest.php on line 212
