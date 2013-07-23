@@ -26,7 +26,7 @@ class ControllerOneCheckoutRegister extends Controller {
 				}		
 
 				if ((strlen(utf8_decode($this->request->post['lastname'])) < 1) || (strlen(utf8_decode($this->request->post['lastname'])) > 32)) {
-					$json['error']['lastname'] = $this->language->get('error_lastname');
+					//$json['error']['lastname'] = $this->language->get('error_lastname');
 				}		
 
 				if ((strlen(utf8_decode($this->request->post['email'])) > 96) || !preg_match('/^[^\@]+@.*\.[a-z]{2,6}$/i', $this->request->post['email'])) {
