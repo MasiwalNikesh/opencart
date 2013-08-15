@@ -1,0 +1,78 @@
+---------- Date: 2013-08-15 15:53:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=product/category&amp;path=25_28
+MOD DETAILS:
+   modFile   : E:\wamp\www\opencart\vqmod/xml/olimod_remove_addto_compare.xml
+   id        : Remove Add to Compare for OC 1.5.1.3
+   version   : 1.0.0
+   vqmver    : 2
+   author    : Olimax
+SEARCH NOT FOUND (ABORTING MOD): <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 15:53:03 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=product/category&amp;path=25_28
+MOD DETAILS:
+   modFile   : E:\wamp\www\opencart\vqmod/xml/olimod_remove_addto_compare.xml
+   id        : Remove Add to Compare for OC 1.5.1.3
+   version   : 1.0.0
+   vqmver    : 2
+   author    : Olimax
+SEARCH NOT FOUND (ABORTING MOD): <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 15:56:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=product/category&amp;path=25_28
+DOM UNABLE TO LOAD: E:\wamp\www\opencart\vqmod/xml/olimod_remove_addto_compare.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 15:57:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=product/category&amp;path=25_28
+DOM UNABLE TO LOAD: E:\wamp\www\opencart\vqmod/xml/olimod_remove_addto_compare.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 15:57:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=product/category&amp;path=25_28
+DOM UNABLE TO LOAD: E:\wamp\www\opencart\vqmod/xml/olimod_remove_addto_compare.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 18:00:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=account/voucher
+MOD DETAILS:
+   modFile   : E:\wamp\www\opencart\vqmod/xml/alter_max_amount_for_gift_voucher.xml
+   id        : Alter max amount for gift vouchers
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : deejunit
+Could not resolve path for [catalog/controller/checkout/voucher.php] (SKIPPED)
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 18:00:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=account/voucher
+MOD DETAILS:
+   modFile   : E:\wamp\www\opencart\vqmod/xml/alter_max_amount_for_gift_voucher.xml
+   id        : Alter max amount for gift vouchers
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : deejunit
+Could not resolve path for [catalog/controller/checkout/voucher.php] (SKIPPED)
+----------------------------------------------------------------------
+
+
+---------- Date: 2013-08-15 18:04:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /opencart/index.php?route=account/voucher
+MOD DETAILS:
+   modFile   : E:\wamp\www\opencart\vqmod/xml/alter_max_amount_for_gift_voucher.xml
+   id        : Alter max amount for gift vouchers
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : deejunit
+Could not resolve path for [catalog/controller/checkout/voucher.php] (SKIPPED)
+----------------------------------------------------------------------
+
+

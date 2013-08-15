@@ -1,0 +1,24 @@
+<modification>
+	<id>Alter max amount for gift vouchers</id>
+	<version>1.0</version>
+	<vqmver>1.2.3</vqmver>
+	<author>deejunit</author>
+	<file name="catalog/controller/checkout/voucher.php">
+		<operation>
+			<search position="replace">
+				<![CDATA[if (($this->request->post['amount'] < 1) || ($this->request->post['amount'] > 1000)) {]]>
+			</search>
+			<add>
+				<![CDATA[if (($this->request->post['amount'] < 1) || ($this->request->post['amount'] > 20000)) {]]>
+			</add>
+		</operation>
+		<operation>
+			<search position="replace">
+				<![CDATA[$this->error['amount'] = sprintf($this->language->get('error_amount'), $this->currency->format(1, false, 1), $this->currency->format(1000, false, 1) . ' ' . $this->currency->getCode());]]>
+			</search>
+			<add>
+				<![CDATA[$this->error['amount'] = sprintf($this->language->get('error_amount'), $this->currency->format(1, false, 1), $this->currency->format(20000, false, 1) . ' ' . $this->currency->getCode());]]>
+			</add>
+		</operation>
+	</file>
+</modification>
