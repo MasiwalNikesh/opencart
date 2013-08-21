@@ -21,10 +21,20 @@
       <?php } ?>
     </div>
     <?php } ?>
+    <?php
+    $this->load->model('catalog/product');
+    $product_info = $this->model_catalog_product->getProduct($product_id);
+    $query = $this->db->query("SELECT * FROM oc_weight_class_description WHERE weight_class_id = ".$product_info['weight_class_id']);
+    $product_weight = round($product_info['weight'],2);
+    $weight_unit = $query->row['unit'];
+    ?>
     <div class="right">
       <div class="description">
         <?php if ($manufacturer) { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
+        <?php } ?>
+        <?php if ($product_weight) { ?>
+        <span>Weight: </span> <?php echo $product_weight.' '.$weight_unit ?><br />
         <?php } ?>
         <span><?php echo $text_model; ?></span> <?php echo $model; ?><br />
         <?php if ($reward) { ?>
@@ -201,6 +211,7 @@
         <?php } ?>
       </div>
       <?php } ?>
+      <div class="product-description"><?php echo $description; ?></div>
       <div class="cart">
         <div><?php echo $text_qty; ?>
           <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
@@ -224,7 +235,7 @@
       <?php } ?>
     </div>
   </div>
-  <div id="tabs" class="htabs"><a href="#tab-description"><?php echo $tab_description; ?></a>
+  <div id="tabs" class="htabs">
     <?php if ($attribute_groups) { ?>
     <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
     <?php } ?>
@@ -235,7 +246,6 @@
     <a href="#tab-related"><?php echo $tab_related; ?> (<?php echo count($products); ?>)</a>
     <?php } ?>
   </div>
-  <div id="tab-description" class="tab-content"><?php echo $description; ?></div>
   <?php if ($attribute_groups) { ?>
   <div id="tab-attribute" class="tab-content">
     <table class="attribute">
@@ -309,6 +319,7 @@
           <?php } ?>
         </div>
         <?php } ?>
+        
         <?php if ($product['rating']) { ?>
         <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
         <?php } ?>

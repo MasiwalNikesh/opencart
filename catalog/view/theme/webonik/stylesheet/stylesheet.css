@@ -1642,3 +1642,12 @@ ul.box-filter > li ul {
 .banner div img {
 	margin-bottom: 20px;
 }
+
+
+/*product/product*/
+
+.product-description {
+	margin-bottom: 10px;
+        border-bottom: 1px solid #E7E7E7;
+        padding: 0 5px 10px;
+}

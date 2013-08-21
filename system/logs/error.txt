@@ -83,3 +83,4 @@
 2013-07-23 17:12:22 - PHP Warning:  mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in E:\wamp\www\opencart\vqmod\vqcache\vq2-system_library_mail.php on line 150
 2013-07-23 17:16:45 - PHP Notice:  Undefined index: company_id in E:\wamp\www\opencart\catalog\model\account\customer.php on line 18
 2013-07-23 17:16:45 - PHP Notice:  Undefined index: tax_id in E:\wamp\www\opencart\catalog\model\account\customer.php on line 18
+2013-08-21 16:17:21 - PHP Notice:  Undefined variable: weight in E:\wamp\www\opencart\catalog\view\theme\webonik\template\product\product.tpl on line 36
