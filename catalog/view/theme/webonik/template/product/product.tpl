@@ -5,7 +5,7 @@
     <?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
     <?php } ?>
   </div>
-  <h1><?php echo $heading_title; ?></h1>
+  <h1><?php echo $heading_title; echo ($name_bangla)?' ('.$name_bangla.')':''; ?></h1>
   <div class="product-info">
     <?php if ($thumb || $images) { ?>
     <div class="left">
@@ -31,7 +31,12 @@
     <div class="right">
       <div class="description">
         <?php if ($manufacturer) { ?>
-        <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
+        <div class="brand_container">
+            <a href="<?php echo $manufacturers; ?>">
+                <img src="<?php echo $manufacturer_image ?>" alt="<?php echo $manufacturer ?>" />
+            </a>
+        </div>
+        
         <?php } ?>
         <?php if ($product_weight) { ?>
         <span>Weight: </span> <?php echo $product_weight.' '.$weight_unit ?><br />
